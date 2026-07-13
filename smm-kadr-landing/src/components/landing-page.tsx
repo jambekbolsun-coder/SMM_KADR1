@@ -89,7 +89,7 @@ const team = [
       "Деловые переговоры",
     ],
   },
-  
+
   {
     name: "Айтбек",
     role: "Основатель SMM KADR",
@@ -123,7 +123,7 @@ const team = [
     name: "Жамшутов Бекболсун Ринатович",
     role: "Главный программист",
     department: "Frontend и Backend-разработка",
-    image: "SMM_KADR1/team/beka.jpeg",
+    image: "SMM_KADR1/team/bekbol.jpeg",
     bio: "Руководит технической разработкой сайтов и цифровых продуктов SMM KADR. Отвечает за Frontend, Backend, архитектуру проектов, базы данных, интеграции и стабильную работу веб-систем. Контролирует техническое качество и безопасность создаваемых решений.",
     skills: [
       "Frontend-разработка",
@@ -912,7 +912,7 @@ export function LandingPage() {
 
       <footer className="border-t border-slate-200 bg-white py-8">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-5 text-center sm:flex-row sm:text-left">
-          <div className="flex items-center gap-3"><Image src="/logo-mark.svg" width={42} height={42} alt="SMM_KADR" /><div><div className="font-black text-slate-950">SMM_KADR</div><div className="text-xs text-slate-500">Рекламная компания · Медиа-холдинг</div></div></div>
+          <div className="flex items-center gap-3"><Image src="/SMM_KADR1/team/smm1.jpg" width={42} height={42} alt="SMM_KADR" /><div><div className="font-black text-slate-950">SMM_KADR</div><div className="text-xs text-slate-500">Рекламная компания · Медиа-холдинг</div></div></div>
           <p className="text-sm text-slate-500">© 2026 SMM_KADR. Бишкек, Кыргызстан.</p>
           <div className="flex gap-2"><a className="grid size-11 place-items-center rounded-full border border-slate-200 hover:border-blue-300 hover:text-blue-700" href={instagramUrl} target="_blank" rel="noreferrer" aria-label="Instagram"><InstagramGlyph /></a><a className="grid size-11 place-items-center rounded-full border border-slate-200 hover:border-blue-300 hover:text-blue-700" href={whatsappUrl} target="_blank" rel="noreferrer" aria-label="WhatsApp"><MessageCircle /></a></div>
         </div>
