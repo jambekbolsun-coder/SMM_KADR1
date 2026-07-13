@@ -80,7 +80,7 @@ const team = [
     name: "Айтбек",
     role: "Основатель SMM KADR",
     department: "Стратегия и развитие",
-    image: "sandbox:/mnt/data/smm-kadr-images/photo-5.png",
+    image: "/smm-kadr-landing/public/team/ф5.PNG",
     bio: "Основатель и руководитель SMM KADR. Определяет стратегию развития компании, контролирует качество услуг, проводит переговоры с крупными клиентами и участвует в разработке маркетинговых решений. Более 7 лет работает в сфере SMM, рекламы и маркетинга. Реализовал более 300 проектов.",
     skills: [
       "Маркетинговая стратегия",
@@ -94,7 +94,7 @@ const team = [
     name: "Бегимай",
     role: "Управляющая и руководитель отдела продаж",
     department: "Управление и продажи",
-    image: "sandbox:/mnt/data/smm-kadr-images/begimai.jpg",
+    image: "/smm-kadr-landing/public/team/бегимайэ.jpg",
     bio: "Управляет отделом продаж и сопровождает клиентов на всех этапах сотрудничества. Проводит консультации, выявляет потребности бизнеса, контролирует коммуникацию и передаёт проекты специалистам компании. Следит за соблюдением сроков и качеством обслуживания.",
     skills: [
       "Управление продажами",
@@ -108,7 +108,7 @@ const team = [
     name: "Эржан",
     role: "Главный таргетолог",
     department: "Таргетированная реклама",
-    image: "sandbox:/mnt/data/smm-kadr-images/erzhan.jpeg",
+    image: "/smm-kadr-landing/public/team/Эржан.jpeg",
     bio: "Отвечает за запуск и ведение таргетированной рекламы. Анализирует бизнес клиента, определяет целевую аудиторию, тестирует рекламные креативы и оптимизирует рекламный бюджет. Контролирует стоимость заявок и эффективность рекламных кампаний.",
     skills: [
       "Meta Ads",
@@ -122,7 +122,7 @@ const team = [
     name: "Жамшутов Бекболсун Ринатович",
     role: "Главный программист",
     department: "Frontend и Backend-разработка",
-    image: "sandbox:/mnt/data/smm-kadr-images/beka.jpeg",
+    image: "/smm-kadr-landing/public/team/бека.jpeg",
     bio: "Руководит технической разработкой сайтов и цифровых продуктов SMM KADR. Отвечает за Frontend, Backend, архитектуру проектов, базы данных, интеграции и стабильную работу веб-систем. Контролирует техническое качество и безопасность создаваемых решений.",
     skills: [
       "Frontend-разработка",
@@ -136,7 +136,7 @@ const team = [
     name: "Эрмек",
     role: "Контент-маркетолог",
     department: "Контент и продвижение",
-    image: "sandbox:/mnt/data/smm-kadr-images/photo-4.png",
+    image: "/smm-kadr-landing/public/team/ф4.PNG",
     bio: "Разрабатывает контент-стратегии для социальных сетей. Анализирует аудиторию и конкурентов, составляет контент-планы, создаёт идеи и технические задания для Reels, Stories и публикаций. Следит, чтобы контент привлекал внимание и помогал бизнесу получать клиентов.",
     skills: [
       "Контент-стратегия",
@@ -150,7 +150,7 @@ const team = [
     name: "Рахманкул",
     role: "Системный маркетолог",
     department: "Маркетинг и аналитика",
-    image: "sandbox:/mnt/data/smm-kadr-images/photo-2.png",
+    image: "/smm-kadr-landing/public/team/ф2.PNG",
     bio: "Выстраивает комплексную систему маркетинга для бизнеса. Проводит аудит, анализирует воронку продаж, находит точки потери клиентов и разрабатывает решения для увеличения заявок и прибыли. Связывает рекламу, контент, продажи и аналитику в единую систему.",
     skills: [
       "Системный маркетинг",
@@ -163,7 +163,7 @@ const team = [
   name: "Камила",
   role: "Мобилограф",
   department: "Видео и контент",
-  image: "sandbox:/mnt/data/smm-kadr-images/mobilograf.jpeg",
+  image: "/smm-kadr-landing/public/team/ф56.jpeg",
   bio: "Отвечает за мобильную видеосъёмку для социальных сетей. Снимает Reels, Stories, рекламные ролики, интервью и экспертный контент. Работает со светом, композицией и ракурсами, помогает героям уверенно вести себя в кадре и передаёт материалы на монтаж.",
   skills: [
     "Мобильная видеосъёмка",
@@ -439,7 +439,7 @@ export function LandingPage() {
       <header className="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-5">
         <div className="mx-auto flex max-w-7xl items-center justify-between rounded-2xl border border-white/70 bg-white/80 px-4 py-3 shadow-[0_16px_55px_-32px_rgba(15,23,42,0.5)] backdrop-blur-xl lg:px-5">
           <a href="#home" className="flex items-center gap-3" aria-label="SMM_KADR — на главную">
-            <Image src="/logo-mark.svg" width={42} height={42} alt="Логотип SMM_KADR" priority />
+            <Image src="/smm-kadr-landing/public/team/smm1.jpg" width={42} height={42} alt="Логотип SMM_KADR" priority />
             <span>
               <span className="block text-sm font-black tracking-[-0.02em] text-slate-950">SMM_KADR</span>
               <span className="block text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-500">Media company</span>
